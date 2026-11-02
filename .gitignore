@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+*.apk
+*.mp3
+test.png
+*.img
