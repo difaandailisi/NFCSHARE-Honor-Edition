@@ -16,7 +16,13 @@
 | 文件 | 大小 | 说明 |
 |---|---|---|
 | `NFCSHARE.exe` | 248 MB | 主程序，PyInstaller 单文件；运行需同目录放 `adb.exe` |
-| `touchshare.apk` | 3.2 MB | 华为「一碰传助手」，扫码写签用。**版权归华为**，仅为离线便利提供 |
+
+**配套的两款手机 App 请自行安装，本项目不提供下载：**
+
+| App | 用途 | 获取方式 |
+|---|---|---|
+| 一碰传助手（`com.huawei.touchshare` / `com.hihonor.touchshare`） | 扫码并把载荷写入 NFC 标签 | 华为 / 荣耀应用市场，或从自己的旧设备备份中提取 |
+| NFC Tools Pro（`com.wakdev.nfctools.pro`） | 擦除 / 格式化 NFC 标签 | Google Play 或官网购买 |
 
 > exe 因为把 Python 运行环境一起打进去了，体积很大、首次启动较慢。这是 PyInstaller 单文件模式的固有代价。
 
